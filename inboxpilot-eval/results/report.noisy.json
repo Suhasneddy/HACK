@@ -1,0 +1,268 @@
+{
+  "generated": "2026-09-30T05:50:59.674Z",
+  "outputs_file": "results/agent_outputs.noisy.json",
+  "emails": 30,
+  "checks": [
+    {
+      "name": "Category accuracy",
+      "value": 0.8333333333333334,
+      "shown": "83.3%",
+      "target": "85.0%",
+      "op": ">=",
+      "pass": false
+    },
+    {
+      "name": "Urgency accuracy",
+      "value": 0.9,
+      "shown": "90.0%",
+      "target": "75.0%",
+      "op": ">=",
+      "pass": true
+    },
+    {
+      "name": "Reply-needed F1",
+      "value": 0.888888888888889,
+      "shown": "88.9%",
+      "target": "85.0%",
+      "op": ">=",
+      "pass": true
+    },
+    {
+      "name": "Task precision",
+      "value": 0.8125,
+      "shown": "81.3%",
+      "target": "80.0%",
+      "op": ">=",
+      "pass": true
+    },
+    {
+      "name": "Task recall",
+      "value": 0.6842105263157895,
+      "shown": "68.4%",
+      "target": "80.0%",
+      "op": ">=",
+      "pass": false
+    },
+    {
+      "name": "Slot validity",
+      "value": 0.9375,
+      "shown": "93.8%",
+      "target": "90.0%",
+      "op": ">=",
+      "pass": true
+    },
+    {
+      "name": "Drafts no/minor edit",
+      "value": 0.8571428571428571,
+      "shown": "85.7%",
+      "target": "70.0%",
+      "op": ">=",
+      "pass": true
+    },
+    {
+      "name": "Forbidden-content violations",
+      "value": 0,
+      "shown": "0",
+      "target": "0",
+      "op": "<=",
+      "pass": true
+    },
+    {
+      "name": "Queue time (min)",
+      "value": 19.040233333333333,
+      "shown": "19.0",
+      "target": "7",
+      "op": "<=",
+      "pass": false
+    }
+  ],
+  "results": {
+    "triage": {
+      "category_acc": 0.8333333333333334,
+      "urgency_acc": 0.9,
+      "macro_f1": 0.8252747252747252
+    },
+    "reply": {
+      "precision": 0.9230769230769231,
+      "recall": 0.8571428571428571,
+      "f1": 0.888888888888889
+    },
+    "tasks": {
+      "tp": 13,
+      "fp": 3,
+      "fn": 6,
+      "precision": 0.8125,
+      "recall": 0.6842105263157895,
+      "f1": 0.742857142857143,
+      "due_date_acc": 1,
+      "expected_total": 19
+    },
+    "meetings": {
+      "emails": 6,
+      "fully_valid_emails": 5,
+      "fully_valid_rate": 0.8333333333333334,
+      "slot_validity": 0.9375,
+      "slots_total": 16,
+      "invalid_reasons": {
+        "conflict": 1
+      },
+      "slots_on_non_meeting": 0
+    },
+    "draft": {
+      "usable_draft_rate": 0.8571428571428571,
+      "must_include_coverage": 1,
+      "must_not_violations": 0,
+      "unnecessary_drafts": 1,
+      "drafts_expected": 14
+    },
+    "approval": {
+      "items_timed": 30,
+      "median_s": 36.4935,
+      "p90_s": 55.973,
+      "queue_minutes": 19.040233333333333,
+      "baseline_minutes": 35,
+      "target_minutes": 7
+    },
+    "rejected": []
+  },
+  "confusion": {
+    "urgent": {
+      "urgent": 5,
+      "meeting": 1,
+      "action": 0,
+      "fyi": 0,
+      "promo": 0,
+      "missing": 0
+    },
+    "meeting": {
+      "urgent": 1,
+      "meeting": 4,
+      "action": 0,
+      "fyi": 1,
+      "promo": 0,
+      "missing": 0
+    },
+    "action": {
+      "urgent": 0,
+      "meeting": 0,
+      "action": 8,
+      "fyi": 0,
+      "promo": 0,
+      "missing": 0
+    },
+    "fyi": {
+      "urgent": 0,
+      "meeting": 1,
+      "action": 0,
+      "fyi": 5,
+      "promo": 0,
+      "missing": 0
+    },
+    "promo": {
+      "urgent": 1,
+      "meeting": 0,
+      "action": 0,
+      "fyi": 0,
+      "promo": 3,
+      "missing": 0
+    }
+  },
+  "per_category": {
+    "urgent": {
+      "tp": 5,
+      "fp": 2,
+      "fn": 1,
+      "precision": 0.7142857142857143,
+      "recall": 0.8333333333333334,
+      "f1": 0.7692307692307692
+    },
+    "meeting": {
+      "tp": 4,
+      "fp": 2,
+      "fn": 2,
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.6666666666666666
+    },
+    "action": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    },
+    "fyi": {
+      "tp": 5,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1": 0.8333333333333334
+    },
+    "promo": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    }
+  },
+  "failures": {
+    "e01": [
+      "task missed: \"Submit Assignment 3\""
+    ],
+    "e03": [
+      "task spurious: \"Follow up on this email\"",
+      "draft: heavy edit (sim 0.00)"
+    ],
+    "e04": [
+      "reply: missed, needs reply"
+    ],
+    "e05": [
+      "reply: missed, needs reply",
+      "task spurious: \"Follow up on this email\""
+    ],
+    "e07": [
+      "category: got fyi, want meeting",
+      "slot 2026-10-02T11:00:00+05:30: conflict:Holiday: Gandhi Jayanti"
+    ],
+    "e08": [
+      "category: got urgent, want meeting",
+      "draft: heavy edit (sim 0.00)"
+    ],
+    "e09": [
+      "task missed: \"Send updated resume and portfolio link\""
+    ],
+    "e11": [
+      "task missed: \"Complete team registration form\""
+    ],
+    "e12": [
+      "task missed: \"Export icons as SVG\""
+    ],
+    "e14": [
+      "urgency: got low, want medium",
+      "task missed: \"Buy birthday gift\""
+    ],
+    "e16": [
+      "category: got meeting, want urgent"
+    ],
+    "e20": [
+      "category: got meeting, want fyi",
+      "urgency: got medium, want low"
+    ],
+    "e24": [
+      "reply: flagged as needs-reply, should not be",
+      "task spurious: \"Follow up on this email\"",
+      "draft: unnecessary reply drafted"
+    ],
+    "e28": [
+      "category: got urgent, want promo"
+    ],
+    "e29": [
+      "urgency: got high, want medium",
+      "task missed: \"Send project proposal draft\""
+    ]
+  }
+}

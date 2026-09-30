@@ -1,0 +1,571 @@
+{
+  "meta": {
+    "now": "2026-09-28T09:00:00+05:30",
+    "timezone": "Asia/Kolkata",
+    "owner": {
+      "name": "Sam Foster",
+      "email": "sam.foster@example.com"
+    },
+    "count": 30,
+    "anonymised": true
+  },
+  "calendar": [
+    {
+      "title": "Lecture",
+      "start": "2026-09-28T11:00:00+05:30",
+      "end": "2026-09-28T12:00:00+05:30"
+    },
+    {
+      "title": "Lab",
+      "start": "2026-09-28T14:00:00+05:30",
+      "end": "2026-09-28T16:00:00+05:30"
+    },
+    {
+      "title": "Client sync",
+      "start": "2026-09-29T10:00:00+05:30",
+      "end": "2026-09-29T11:30:00+05:30"
+    },
+    {
+      "title": "Design review",
+      "start": "2026-09-29T15:00:00+05:30",
+      "end": "2026-09-29T16:00:00+05:30"
+    },
+    {
+      "title": "Exam prep",
+      "start": "2026-09-30T10:00:00+05:30",
+      "end": "2026-09-30T12:00:00+05:30"
+    },
+    {
+      "title": "Team standup",
+      "start": "2026-09-30T16:00:00+05:30",
+      "end": "2026-09-30T17:00:00+05:30"
+    },
+    {
+      "title": "Hackathon submission",
+      "start": "2026-10-01T10:00:00+05:30",
+      "end": "2026-10-01T13:00:00+05:30"
+    },
+    {
+      "title": "Holiday: Gandhi Jayanti",
+      "start": "2026-10-02T00:00:00+05:30",
+      "end": "2026-10-02T23:59:00+05:30"
+    },
+    {
+      "title": "Lab",
+      "start": "2026-10-05T14:00:00+05:30",
+      "end": "2026-10-05T15:30:00+05:30"
+    }
+  ],
+  "emails": [
+    {
+      "id": "e01",
+      "thread_id": "t_e01",
+      "from": {
+        "name": "Riley Warren",
+        "email": "riley.warren@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "URGENT: Assignment 3 deadline moved to today",
+      "date": "2026-09-28T08:10:00+05:30",
+      "body": "Hi Sam,\n\nDue to the lab schedule change, Assignment 3 must now be submitted today by 5 PM. No extensions will be given. Upload your PDF at [URL] with your USN ([STUDENT_ID]) in the filename.\n\nIf the portal fails, call me on [PHONE].\n\nProf. Riley Warren"
+    },
+    {
+      "id": "e02",
+      "thread_id": "t_e02",
+      "from": {
+        "name": "Jordan Norris",
+        "email": "jordan.norris@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Old logo still live - launch at 6 PM",
+      "date": "2026-09-28T08:40:00+05:30",
+      "body": "Hi Sam,\n\nThe staging site still shows the old logo and our launch is at 6 PM today. Could you push the updated logo assets (SVG + PNG) as soon as possible? I'll be on a call with investors until 4.\n\nThanks,\nJordan Norris\nBrightPixel | [PHONE]"
+    },
+    {
+      "id": "e03",
+      "thread_id": "t_e03",
+      "from": {
+        "name": "Taylor Hayes",
+        "email": "taylor.hayes@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Project review meeting",
+      "date": "2026-09-27T18:20:00+05:30",
+      "body": "Hi Sam,\n\nI'd like a 30-minute review of your capstone project progress. I'm free on Tuesday or Wednesday this week - please suggest a time that works for you.\n\nRegards,\nDr. Taylor Hayes"
+    },
+    {
+      "id": "e04",
+      "thread_id": "t_e04",
+      "from": {
+        "name": "Casey Sullivan",
+        "email": "casey.sullivan@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Kickoff call for landing page project",
+      "date": "2026-09-25T16:05:00+05:30",
+      "body": "Hi Sam,\n\nGreat to be working together. Can we do a 45-minute kickoff call on Thursday or Friday? Let me know what suits you.\n\nCasey Sullivan\nGreenleaf Studio"
+    },
+    {
+      "id": "e05",
+      "thread_id": "t_e05",
+      "from": {
+        "name": "Morgan Whitaker",
+        "email": "morgan.whitaker@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Intro call - Product Design Intern",
+      "date": "2026-09-28T07:55:00+05:30",
+      "body": "Hi Sam,\n\nThanks for applying to Nimbus Labs. We'd love to schedule a 20-minute intro call next week. Afternoons work best for our team (2-6 PM IST). Please share your availability.\n\nMorgan Whitaker\nTalent Team, Nimbus Labs"
+    },
+    {
+      "id": "e06",
+      "thread_id": "t_e06",
+      "from": {
+        "name": "Jamie Bennett",
+        "email": "jamie.bennett@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Demo rehearsal tomorrow?",
+      "date": "2026-09-28T08:45:00+05:30",
+      "body": "Sam! We need a full run-through of the demo before Thursday. Can we do a 1-hour rehearsal tomorrow? Any time works for me.\n\n- Jamie"
+    },
+    {
+      "id": "e07",
+      "thread_id": "t_e07",
+      "from": {
+        "name": "Avery Reed",
+        "email": "avery.reed@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Coffee chat",
+      "date": "2026-09-27T11:30:00+05:30",
+      "body": "Hi Sam,\n\nHappy to catch up on your career plans. I have a free 30 minutes any day this week - pick whatever suits you.\n\nBest,\nAvery Reed\nMentorLoop"
+    },
+    {
+      "id": "e08",
+      "thread_id": "t_e08",
+      "from": {
+        "name": "Quinn Prescott",
+        "email": "quinn.prescott@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Lease renewal - quick call",
+      "date": "2026-09-26T19:10:00+05:30",
+      "body": "Hello Sam,\n\nRegarding renewal of your lease for [ADDRESS]. Can we have a quick 15-minute video call on Saturday morning? You can reach me at [PHONE].\n\nQuinn Prescott"
+    },
+    {
+      "id": "e09",
+      "thread_id": "t_e09",
+      "from": {
+        "name": "Drew Carter",
+        "email": "drew.carter@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Internship application - documents",
+      "date": "2026-09-27T14:00:00+05:30",
+      "body": "Hi Sam,\n\nWe're impressed with your profile. Please send your updated resume and portfolio link by Friday so we can move you to the next round.\n\nDrew Carter\nStackForge"
+    },
+    {
+      "id": "e10",
+      "thread_id": "t_e10",
+      "from": {
+        "name": "Jordan Norris",
+        "email": "jordan.norris@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Invoice draft for review",
+      "date": "2026-09-26T12:15:00+05:30",
+      "body": "Hi Sam,\n\nAttaching the invoice draft for the branding project ([REF_ID]). Please review it and confirm your GST number by Wednesday so accounts can process the payment.\n\nJordan"
+    },
+    {
+      "id": "e11",
+      "thread_id": "t_e11",
+      "from": {
+        "name": "HackVerse Team",
+        "email": "team@hackverse.dev"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Action required: complete your team registration",
+      "date": "2026-09-24T10:00:00+05:30",
+      "body": "Hi Team Deep Think,\n\nComplete the team registration form and upload your pitch deck before 1 Oct, 11:59 PM IST. Submissions after the deadline will not be considered.\n\nHackVerse Team"
+    },
+    {
+      "id": "e12",
+      "thread_id": "t_e12",
+      "from": {
+        "name": "Parker Brooks",
+        "email": "parker.brooks@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Figma access",
+      "date": "2026-09-28T08:20:00+05:30",
+      "body": "hey Sam, can you share the Figma file with edit access and export all the icons as SVG by tomorrow? need them for the deck. thanks!\n\n- Parker"
+    },
+    {
+      "id": "e13",
+      "thread_id": "t_e13",
+      "from": {
+        "name": "Lakeview Library",
+        "email": "library@lakeview-univ.edu"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Reminder: book due",
+      "date": "2026-09-25T09:00:00+05:30",
+      "body": "Dear Sam Foster,\n\nYour borrowed book 'Deep Learning' (Acc. No. [REF_ID]) is due on 3 Oct 2026. Please return or renew it online to avoid a fine of Rs 5 per day.\n\nLakeview Library"
+    },
+    {
+      "id": "e14",
+      "thread_id": "t_e14",
+      "from": {
+        "name": "Reese Holland",
+        "email": "reese.holland@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Amma's birthday",
+      "date": "2026-09-27T20:30:00+05:30",
+      "body": "Sam, amma's birthday is next Sunday (4 Oct)! Can you pick up a gift on your way home and order the cake from that bakery near us? I'll handle decorations.\n\n- Reese"
+    },
+    {
+      "id": "e15",
+      "thread_id": "t_e15",
+      "from": {
+        "name": "Lakeview Accounts",
+        "email": "accounts@lakeview-univ.edu"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Final reminder: exam fee payment",
+      "date": "2026-09-28T08:00:00+05:30",
+      "body": "Dear Student (USN [STUDENT_ID]),\n\nYour semester exam fee of Rs 2,350 is unpaid. Pay through the student portal by 30 Sep 2026 to avoid being barred from exams. Ref: [REF_ID].\n\nAccounts Office"
+    },
+    {
+      "id": "e16",
+      "thread_id": "t_e16",
+      "from": {
+        "name": "UnionFirst Alerts",
+        "email": "alerts@unionfirst-bank.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Suspicious transaction alert",
+      "date": "2026-09-28T08:30:00+05:30",
+      "body": "Dear Customer,\n\nA transaction of Rs 18,499 on your debit card ending XXXX at ELECTRO-MART was flagged. If this was not you, call [PHONE] immediately. Reply YES to confirm or NO to block.\n\nUnionFirst Bank"
+    },
+    {
+      "id": "e17",
+      "thread_id": "t_e17",
+      "from": {
+        "name": "CloudNest Billing",
+        "email": "billing@cloudnest.io"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Action needed: payment failed",
+      "date": "2026-09-28T07:30:00+05:30",
+      "body": "Hi Sam,\n\nYour payment for the Pro plan failed. Update your payment method within 24 hours or your projects will be suspended.\n\nCloudNest Billing"
+    },
+    {
+      "id": "e18",
+      "thread_id": "t_e18",
+      "from": {
+        "name": "Jamie Bennett",
+        "email": "jamie.bennett@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "build broken on main",
+      "date": "2026-09-28T08:50:00+05:30",
+      "body": "Sam, the build on main is failing since your last merge. Can you fix it before we demo? Please look at it today.\n\n- Jamie"
+    },
+    {
+      "id": "e19",
+      "thread_id": "t_e19",
+      "from": {
+        "name": "Lakeview Registrar",
+        "email": "registrar@lakeview-univ.edu"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Holiday notice",
+      "date": "2026-09-24T15:00:00+05:30",
+      "body": "Dear students,\n\nThe campus and library will remain closed on 2 October 2026 on account of Gandhi Jayanti. Regular classes resume on 3 October.\n\nOffice of the Registrar"
+    },
+    {
+      "id": "e20",
+      "thread_id": "t_e20",
+      "from": {
+        "name": "Jamie Bennett",
+        "email": "jamie.bennett@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "docs pushed",
+      "date": "2026-09-26T22:10:00+05:30",
+      "body": "FYI I pushed the README and architecture docs to the repo. Nothing needed from you.\n\n- Jamie"
+    },
+    {
+      "id": "e21",
+      "thread_id": "t_e21",
+      "from": {
+        "name": "Jordan Norris",
+        "email": "jordan.norris@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Thank you!",
+      "date": "2026-09-25T17:45:00+05:30",
+      "body": "Hi Sam,\n\nJust wanted to say thanks for delivering the brand kit. The team loved it!\n\nJordan"
+    },
+    {
+      "id": "e22",
+      "thread_id": "t_e22",
+      "from": {
+        "name": "GitHub",
+        "email": "notifications@github.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "[deepthink/inboxpilot] Pull request #42 merged",
+      "date": "2026-09-27T16:00:00+05:30",
+      "body": "jamie-bennett merged pull request #42: Add approval queue UI.\n\nView it on GitHub: [URL]"
+    },
+    {
+      "id": "e23",
+      "thread_id": "t_e23",
+      "from": {
+        "name": "Riley Warren",
+        "email": "riley.warren@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Week 4 notes and midterm syllabus",
+      "date": "2026-09-27T10:00:00+05:30",
+      "body": "Hi all,\n\nWeek 4 lecture notes are on the LMS. The midterm syllabus is attached for reference; no submission is required.\n\nRegards,\nProf. Riley Warren"
+    },
+    {
+      "id": "e24",
+      "thread_id": "t_e24",
+      "from": {
+        "name": "Google Calendar",
+        "email": "calendar-notification@google.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Accepted: Client sync @ Tue 29 Sep, 10:00 - 11:30",
+      "date": "2026-09-28T07:00:00+05:30",
+      "body": "Jordan Norris has accepted this invitation.\n\nClient sync\nTuesday 29 September 2026, 10:00 - 11:30 (IST)"
+    },
+    {
+      "id": "e25",
+      "thread_id": "t_e25",
+      "from": {
+        "name": "QuickBite",
+        "email": "deals@quickbite.in"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "50% off your next 3 orders",
+      "date": "2026-09-28T06:00:00+05:30",
+      "body": "Hungry? Get 50% off your next 3 orders with code FEAST50. Valid till Sunday. Order now in the app!\n\nUnsubscribe anytime."
+    },
+    {
+      "id": "e26",
+      "thread_id": "t_e26",
+      "from": {
+        "name": "LearnSphere",
+        "email": "newsletter@learnsphere.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "New this week: 12 courses to level up",
+      "date": "2026-09-27T09:00:00+05:30",
+      "body": "This week on LearnSphere: Intro to Prompt Engineering, Advanced SQL, UX Research Basics and 9 more. Start learning today!\n\nUnsubscribe anytime."
+    },
+    {
+      "id": "e27",
+      "thread_id": "t_e27",
+      "from": {
+        "name": "ShopKart",
+        "email": "offers@shopkart.in"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "FLASH SALE ends tonight!",
+      "date": "2026-09-28T07:15:00+05:30",
+      "body": "Up to 70% off on electronics, fashion and more. Sale ends at midnight - act now!\n\nUnsubscribe anytime."
+    },
+    {
+      "id": "e28",
+      "thread_id": "t_e28",
+      "from": {
+        "name": "GrowthHackers",
+        "email": "hello@growthhackers.io"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Free webinar: 10x your freelance income",
+      "date": "2026-09-26T13:00:00+05:30",
+      "body": "Register now to reserve your seat for our free webinar this Friday. Limited spots. Learn the secrets top freelancers use.\n\nUnsubscribe anytime."
+    },
+    {
+      "id": "e29",
+      "thread_id": "t_e29",
+      "from": {
+        "name": "Taylor Hayes",
+        "email": "taylor.hayes@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Capstone proposal",
+      "date": "2026-09-28T08:05:00+05:30",
+      "body": "Hi Sam,\n\nPlease send me your project proposal draft (maximum 2 pages) along with the names of your team members by 3 Oct.\n\nRegards,\nDr. Taylor Hayes"
+    },
+    {
+      "id": "e30",
+      "thread_id": "t_e30",
+      "from": {
+        "name": "Casey Sullivan",
+        "email": "casey.sullivan@example.com"
+      },
+      "to": [
+        {
+          "name": "Sam Foster",
+          "email": "sam.foster@example.com"
+        }
+      ],
+      "subject": "Quote request",
+      "date": "2026-09-28T08:25:00+05:30",
+      "body": "Hi Sam,\n\nCould you send over a quote for the landing page revamp by Monday? We'd like to finalize the budget next week.\n\nCasey"
+    }
+  ]
+}

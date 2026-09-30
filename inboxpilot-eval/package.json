@@ -1,0 +1,15 @@
+{
+  "name": "inboxpilot-eval",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build_dataset.mjs",
+    "anonymise": "node scripts/anonymise.mjs",
+    "mock": "node scripts/make_mock_outputs.mjs",
+    "eval": "node scripts/evaluate.mjs",
+    "smoke": "node scripts/api_smoke_test.mjs",
+    "audit": "node scripts/selftest.mjs",
+    "all": "npm run build && npm run anonymise && node scripts/make_mock_outputs.mjs oracle && node scripts/make_mock_outputs.mjs noisy && node scripts/evaluate.mjs --outputs results/agent_outputs.noisy.json && npm run audit"
+  }
+}

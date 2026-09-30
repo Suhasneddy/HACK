@@ -1,0 +1,4 @@
+data/private/
+data/raw_emails.json
+.tokens.json
+.env

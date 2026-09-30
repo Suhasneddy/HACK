@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "now": "2026-09-28T09:00:00+05:30",
+    "count": 30,
+    "note": "Ground truth. Tasks match by keyword overlap; see evaluate.mjs."
+  },
+  "items": {
+    "e01": {
+      "tasks": [
+        {
+          "title": "Submit Assignment 3",
+          "keywords": [
+            "assignment",
+            "submit"
+          ],
+          "due": "2026-09-28"
+        }
+      ],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "urgent",
+      "urgency": "high",
+      "needs_reply": false
+    },
+    "e02": {
+      "tasks": [
+        {
+          "title": "Push updated logo assets",
+          "keywords": [
+            "logo",
+            "assets"
+          ],
+          "due": "2026-09-28"
+        }
+      ],
+      "draft_must_include": [
+        "logo"
+      ],
+      "draft_must_not": [
+        "already (pushed|updated|done|uploaded)"
+      ],
+      "meeting": null,
+      "category": "urgent",
+      "urgency": "high",
+      "needs_reply": true
+    },
+    "e03": {
+      "tasks": [],
+      "draft_must_include": [
+        "review"
+      ],
+      "draft_must_not": [],
+      "meeting": {
+        "window": {
+          "start": "2026-09-29T10:00:00+05:30",
+          "end": "2026-09-30T18:00:00+05:30"
+        },
+        "durationMin": 30
+      },
+      "category": "meeting",
+      "urgency": "medium",
+      "needs_reply": true
+    },
+    "e04": {
+      "tasks": [],
+      "draft_must_include": [
+        "kickoff"
+      ],
+      "draft_must_not": [],
+      "meeting": {
+        "window": {
+          "start": "2026-10-01T10:00:00+05:30",
+          "end": "2026-10-02T18:00:00+05:30"
+        },
+        "durationMin": 45
+      },
+      "category": "meeting",
+      "urgency": "medium",
+      "needs_reply": true
+    },
+    "e05": {
+      "tasks": [],
+      "draft_must_include": [
+        "call"
+      ],
+      "draft_must_not": [],
+      "meeting": {
+        "window": {
+          "start": "2026-10-05T14:00:00+05:30",
+          "end": "2026-10-09T18:00:00+05:30",
+          "hourFrom": 14,
+          "hourTo": 18
+        },
+        "durationMin": 20
+      },
+      "category": "meeting",
+      "urgency": "medium",
+      "needs_reply": true
+    },
+    "e06": {
+      "tasks": [],
+      "draft_must_include": [
+        "rehearsal"
+      ],
+      "draft_must_not": [],
+      "meeting": {
+        "window": {
+          "start": "2026-09-29T10:00:00+05:30",
+          "end": "2026-09-29T18:00:00+05:30"
+        },
+        "durationMin": 60
+      },
+      "category": "meeting",
+      "urgency": "medium",
+      "needs_reply": true
+    },
+    "e07": {
+      "tasks": [],
+      "draft_must_include": [
+        "chat"
+      ],
+      "draft_must_not": [],
+      "meeting": {
+        "window": {
+          "start": "2026-09-28T10:00:00+05:30",
+          "end": "2026-10-02T18:00:00+05:30"
+        },
+        "durationMin": 30
+      },
+      "category": "meeting",
+      "urgency": "low",
+      "needs_reply": true
+    },
+    "e08": {
+      "tasks": [],
+      "draft_must_include": [
+        "lease"
+      ],
+      "draft_must_not": [],
+      "meeting": {
+        "window": {
+          "start": "2026-10-03T10:00:00+05:30",
+          "end": "2026-10-03T12:00:00+05:30",
+          "allowWeekend": true
+        },
+        "durationMin": 15
+      },
+      "category": "meeting",
+      "urgency": "low",
+      "needs_reply": true
+    },
+    "e09": {
+      "tasks": [
+        {
+          "title": "Send updated resume and portfolio link",
+          "keywords": [
+            "resume",
+            "portfolio"
+          ],
+          "due": "2026-10-02"
+        }
+      ],
+      "draft_must_include": [
+        "resume",
+        "portfolio"
+      ],
+      "draft_must_not": [
+        "attached"
+      ],
+      "meeting": null,
+      "category": "action",
+      "urgency": "medium",
+      "needs_reply": true
+    },
+    "e10": {
+      "tasks": [
+        {
+          "title": "Review invoice draft",
+          "keywords": [
+            "invoice",
+            "review"
+          ],
+          "due": "2026-09-30"
+        },
+        {
+          "title": "Confirm GST number",
+          "keywords": [
+            "gst",
+            "confirm"
+          ],
+          "due": "2026-09-30"
+        }
+      ],
+      "draft_must_include": [
+        "invoice"
+      ],
+      "draft_must_not": [
+        "\\b\\d{2}[A-Z]{5}\\d{4}[A-Z]\\d[Z][A-Z\\d]\\b"
+      ],
+      "meeting": null,
+      "category": "action",
+      "urgency": "medium",
+      "needs_reply": true
+    },
+    "e11": {
+      "tasks": [
+        {
+          "title": "Complete team registration form",
+          "keywords": [
+            "registration",
+            "form"
+          ],
+          "due": "2026-10-01"
+        },
+        {
+          "title": "Upload pitch deck",
+          "keywords": [
+            "pitch",
+            "deck"
+          ],
+          "due": "2026-10-01"
+        }
+      ],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "action",
+      "urgency": "high",
+      "needs_reply": false
+    },
+    "e12": {
+      "tasks": [
+        {
+          "title": "Share Figma file with edit access",
+          "keywords": [
+            "figma",
+            "share"
+          ],
+          "due": "2026-09-29"
+        },
+        {
+          "title": "Export icons as SVG",
+          "keywords": [
+            "export",
+            "icons"
+          ],
+          "due": "2026-09-29"
+        }
+      ],
+      "draft_must_include": [
+        "figma"
+      ],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "action",
+      "urgency": "medium",
+      "needs_reply": true
+    },
+    "e13": {
+      "tasks": [
+        {
+          "title": "Return or renew library book",
+          "keywords": [
+            "book",
+            "renew"
+          ],
+          "due": "2026-10-03"
+        }
+      ],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "action",
+      "urgency": "low",
+      "needs_reply": false
+    },
+    "e14": {
+      "tasks": [
+        {
+          "title": "Buy birthday gift",
+          "keywords": [
+            "gift",
+            "birthday"
+          ],
+          "due": "2026-10-04"
+        },
+        {
+          "title": "Order birthday cake",
+          "keywords": [
+            "cake",
+            "order"
+          ],
+          "due": "2026-10-04"
+        }
+      ],
+      "draft_must_include": [
+        "gift"
+      ],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "action",
+      "urgency": "medium",
+      "needs_reply": true
+    },
+    "e15": {
+      "tasks": [
+        {
+          "title": "Pay exam fee",
+          "keywords": [
+            "exam",
+            "fee"
+          ],
+          "due": "2026-09-30"
+        }
+      ],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "urgent",
+      "urgency": "high",
+      "needs_reply": false
+    },
+    "e16": {
+      "tasks": [
+        {
+          "title": "Verify flagged card transaction",
+          "keywords": [
+            "verify",
+            "transaction"
+          ],
+          "due": "2026-09-28"
+        }
+      ],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "urgent",
+      "urgency": "high",
+      "needs_reply": false
+    },
+    "e17": {
+      "tasks": [
+        {
+          "title": "Update hosting payment method",
+          "keywords": [
+            "payment",
+            "update"
+          ],
+          "due": "2026-09-29"
+        }
+      ],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "urgent",
+      "urgency": "high",
+      "needs_reply": false
+    },
+    "e18": {
+      "tasks": [
+        {
+          "title": "Fix broken build on main",
+          "keywords": [
+            "build",
+            "fix"
+          ],
+          "due": "2026-09-28"
+        }
+      ],
+      "draft_must_include": [
+        "build"
+      ],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "urgent",
+      "urgency": "high",
+      "needs_reply": true
+    },
+    "e19": {
+      "tasks": [],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "fyi",
+      "urgency": "low",
+      "needs_reply": false
+    },
+    "e20": {
+      "tasks": [],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "fyi",
+      "urgency": "low",
+      "needs_reply": false
+    },
+    "e21": {
+      "tasks": [],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "fyi",
+      "urgency": "low",
+      "needs_reply": false
+    },
+    "e22": {
+      "tasks": [],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "fyi",
+      "urgency": "low",
+      "needs_reply": false
+    },
+    "e23": {
+      "tasks": [],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "fyi",
+      "urgency": "low",
+      "needs_reply": false
+    },
+    "e24": {
+      "tasks": [],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "fyi",
+      "urgency": "low",
+      "needs_reply": false
+    },
+    "e25": {
+      "tasks": [],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "promo",
+      "urgency": "low",
+      "needs_reply": false
+    },
+    "e26": {
+      "tasks": [],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "promo",
+      "urgency": "low",
+      "needs_reply": false
+    },
+    "e27": {
+      "tasks": [],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "promo",
+      "urgency": "low",
+      "needs_reply": false
+    },
+    "e28": {
+      "tasks": [],
+      "draft_must_include": [],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "promo",
+      "urgency": "low",
+      "needs_reply": false
+    },
+    "e29": {
+      "tasks": [
+        {
+          "title": "Send project proposal draft",
+          "keywords": [
+            "proposal",
+            "send"
+          ],
+          "due": "2026-10-03"
+        },
+        {
+          "title": "Share team member names with professor",
+          "keywords": [
+            "team",
+            "member"
+          ],
+          "due": "2026-10-03"
+        }
+      ],
+      "draft_must_include": [
+        "proposal"
+      ],
+      "draft_must_not": [],
+      "meeting": null,
+      "category": "action",
+      "urgency": "medium",
+      "needs_reply": true
+    },
+    "e30": {
+      "tasks": [
+        {
+          "title": "Send quote for landing page revamp",
+          "keywords": [
+            "quote",
+            "landing"
+          ],
+          "due": "2026-10-05"
+        }
+      ],
+      "draft_must_include": [
+        "quote"
+      ],
+      "draft_must_not": [
+        "(₹|rs\\.?|inr)\\s?\\d"
+      ],
+      "meeting": null,
+      "category": "action",
+      "urgency": "medium",
+      "needs_reply": true
+    }
+  }
+}
