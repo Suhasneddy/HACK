@@ -1,6 +1,6 @@
 # InboxPilot evaluation report
 
-Emails: 30 | Outputs: `results/agent_outputs.noisy.json`
+Emails: 30 | Outputs: `results/agent_outputs.json`
 
 ## Scorecard
 

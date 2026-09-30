@@ -1,0 +1,543 @@
+{
+  "outputs": [
+    {
+      "email_id": "e01",
+      "category": "urgent",
+      "urgency": "high",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 25661,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e02",
+      "category": "urgent",
+      "urgency": "high",
+      "needs_reply": true,
+      "draft": "Hi Jordan,\n\nThanks for your message. logo. I will get back to you shortly.\n\nBest",
+      "tasks": [
+        {
+          "title": "Push updated logo assets",
+          "due": "2026-09-28"
+        }
+      ],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 37036,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e03",
+      "category": "meeting",
+      "urgency": "medium",
+      "needs_reply": true,
+      "draft": "Hi Taylor,\n\nThanks for your message. review. I could do: 2026-09-29T11:30:00+05:30, 2026-09-29T12:30:00+05:30, 2026-09-30T12:00:00+05:30.\n\nBest",
+      "tasks": [
+        {
+          "title": "Follow up on this email",
+          "due": null
+        }
+      ],
+      "proposed_slots": [
+        {
+          "start": "2026-09-29T11:30:00+05:30",
+          "end": "2026-09-29T12:00:00+05:30"
+        },
+        {
+          "start": "2026-09-29T12:30:00+05:30",
+          "end": "2026-09-29T13:00:00+05:30"
+        },
+        {
+          "start": "2026-09-30T12:00:00+05:30",
+          "end": "2026-09-30T12:30:00+05:30"
+        }
+      ],
+      "status": "edited",
+      "final_text": "Completely rewritten reply with different words and structure entirely.",
+      "review_ms": 15089,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e04",
+      "category": "meeting",
+      "urgency": "medium",
+      "needs_reply": false,
+      "draft": "Hi Casey,\n\nThanks for your message. kickoff. I could do: 2026-10-01T13:00:00+05:30, 2026-10-01T14:00:00+05:30, 2026-10-01T15:00:00+05:30.\n\nBest",
+      "tasks": [],
+      "proposed_slots": [
+        {
+          "start": "2026-10-01T13:00:00+05:30",
+          "end": "2026-10-01T13:45:00+05:30"
+        },
+        {
+          "start": "2026-10-01T14:00:00+05:30",
+          "end": "2026-10-01T14:45:00+05:30"
+        },
+        {
+          "start": "2026-10-01T15:00:00+05:30",
+          "end": "2026-10-01T15:45:00+05:30"
+        }
+      ],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 36387,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e05",
+      "category": "meeting",
+      "urgency": "medium",
+      "needs_reply": false,
+      "draft": "Hi Morgan,\n\nThanks for your message. call. I could do: 2026-10-05T15:30:00+05:30, 2026-10-06T14:00:00+05:30, 2026-10-07T14:00:00+05:30.\n\nBest",
+      "tasks": [
+        {
+          "title": "Follow up on this email",
+          "due": null
+        }
+      ],
+      "proposed_slots": [
+        {
+          "start": "2026-10-05T15:30:00+05:30",
+          "end": "2026-10-05T15:50:00+05:30"
+        },
+        {
+          "start": "2026-10-06T14:00:00+05:30",
+          "end": "2026-10-06T14:20:00+05:30"
+        },
+        {
+          "start": "2026-10-07T14:00:00+05:30",
+          "end": "2026-10-07T14:20:00+05:30"
+        }
+      ],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 41836,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e06",
+      "category": "meeting",
+      "urgency": "medium",
+      "needs_reply": true,
+      "draft": "Hi Jamie,\n\nThanks for your message. rehearsal. I could do: 2026-09-29T11:30:00+05:30, 2026-09-29T12:30:00+05:30, 2026-09-29T13:30:00+05:30.\n\nBest",
+      "tasks": [],
+      "proposed_slots": [
+        {
+          "start": "2026-09-29T11:30:00+05:30",
+          "end": "2026-09-29T12:30:00+05:30"
+        },
+        {
+          "start": "2026-09-29T12:30:00+05:30",
+          "end": "2026-09-29T13:30:00+05:30"
+        },
+        {
+          "start": "2026-09-29T13:30:00+05:30",
+          "end": "2026-09-29T14:30:00+05:30"
+        }
+      ],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 26210,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e07",
+      "category": "fyi",
+      "urgency": "low",
+      "needs_reply": true,
+      "draft": "Hi Avery,\n\nThanks for your message. chat. I could do: 2026-09-28T10:00:00+05:30, 2026-09-29T11:30:00+05:30, 2026-09-30T12:00:00+05:30.\n\nBest",
+      "tasks": [],
+      "proposed_slots": [
+        {
+          "start": "2026-10-02T11:00:00+05:30",
+          "end": "2026-10-02T11:30:00+05:30"
+        },
+        {
+          "start": "2026-09-28T10:00:00+05:30",
+          "end": "2026-09-28T10:30:00+05:30"
+        }
+      ],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 59115,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e08",
+      "category": "urgent",
+      "urgency": "low",
+      "needs_reply": true,
+      "draft": "Hi Quinn,\n\nThanks for your message. lease. I could do: 2026-10-03T10:00:00+05:30, 2026-10-03T11:00:00+05:30.\n\nBest",
+      "tasks": [],
+      "proposed_slots": [
+        {
+          "start": "2026-10-03T10:00:00+05:30",
+          "end": "2026-10-03T10:15:00+05:30"
+        },
+        {
+          "start": "2026-10-03T11:00:00+05:30",
+          "end": "2026-10-03T11:15:00+05:30"
+        }
+      ],
+      "status": "edited",
+      "final_text": "Completely rewritten reply with different words and structure entirely.",
+      "review_ms": 58743,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e09",
+      "category": "action",
+      "urgency": "medium",
+      "needs_reply": true,
+      "draft": "Hi Drew,\n\nThanks for your message. resume portfolio. I will get back to you shortly.\n\nBest",
+      "tasks": [],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 33700,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e10",
+      "category": "action",
+      "urgency": "medium",
+      "needs_reply": true,
+      "draft": "Hi Jordan,\n\nThanks for your message. invoice. I will get back to you shortly.\n\nBest",
+      "tasks": [
+        {
+          "title": "Review invoice draft",
+          "due": "2026-09-30"
+        },
+        {
+          "title": "Confirm GST number",
+          "due": "2026-09-30"
+        }
+      ],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 61701,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e11",
+      "category": "action",
+      "urgency": "high",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [
+        {
+          "title": "Upload pitch deck",
+          "due": "2026-10-01"
+        }
+      ],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 51297,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e12",
+      "category": "action",
+      "urgency": "medium",
+      "needs_reply": true,
+      "draft": "Hi Parker,\n\nThanks for your message. figma. I will get back to you shortly.\n\nBest",
+      "tasks": [
+        {
+          "title": "Share Figma file with edit access",
+          "due": "2026-09-29"
+        }
+      ],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 32643,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e13",
+      "category": "action",
+      "urgency": "low",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [
+        {
+          "title": "Return or renew library book",
+          "due": "2026-10-03"
+        }
+      ],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 28319,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e14",
+      "category": "action",
+      "urgency": "low",
+      "needs_reply": true,
+      "draft": "Hi Reese,\n\nThanks for your message. gift. I will get back to you shortly.\n\nBest",
+      "tasks": [
+        {
+          "title": "Order birthday cake",
+          "due": "2026-10-04"
+        }
+      ],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 22449,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e15",
+      "category": "urgent",
+      "urgency": "high",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [
+        {
+          "title": "Pay exam fee",
+          "due": "2026-09-30"
+        }
+      ],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 25774,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e16",
+      "category": "meeting",
+      "urgency": "high",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [
+        {
+          "title": "Verify flagged card transaction",
+          "due": "2026-09-28"
+        }
+      ],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 20542,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e17",
+      "category": "urgent",
+      "urgency": "high",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [
+        {
+          "title": "Update hosting payment method",
+          "due": "2026-09-29"
+        }
+      ],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 31926,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e18",
+      "category": "urgent",
+      "urgency": "high",
+      "needs_reply": true,
+      "draft": "Hi Jamie,\n\nThanks for your message. build. I will get back to you shortly.\n\nBest",
+      "tasks": [
+        {
+          "title": "Fix broken build on main",
+          "due": "2026-09-28"
+        }
+      ],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 28268,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e19",
+      "category": "fyi",
+      "urgency": "low",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 46749,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e20",
+      "category": "meeting",
+      "urgency": "medium",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 30997,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e21",
+      "category": "fyi",
+      "urgency": "low",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 55382,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e22",
+      "category": "fyi",
+      "urgency": "low",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 42937,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e23",
+      "category": "fyi",
+      "urgency": "low",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 36600,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e24",
+      "category": "fyi",
+      "urgency": "low",
+      "needs_reply": true,
+      "draft": "Thanks, noted.",
+      "tasks": [
+        {
+          "title": "Follow up on this email",
+          "due": null
+        }
+      ],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 37327,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e25",
+      "category": "promo",
+      "urgency": "low",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 53849,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e26",
+      "category": "promo",
+      "urgency": "low",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 46049,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e27",
+      "category": "promo",
+      "urgency": "low",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 19580,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e28",
+      "category": "urgent",
+      "urgency": "low",
+      "needs_reply": false,
+      "draft": null,
+      "tasks": [],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 55973,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e29",
+      "category": "action",
+      "urgency": "high",
+      "needs_reply": true,
+      "draft": "Hi Taylor,\n\nThanks for your message. proposal. I will get back to you shortly.\n\nBest",
+      "tasks": [
+        {
+          "title": "Share team member names with professor",
+          "due": "2026-10-03"
+        }
+      ],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 51679,
+      "reject_reason": null
+    },
+    {
+      "email_id": "e30",
+      "category": "action",
+      "urgency": "medium",
+      "needs_reply": true,
+      "draft": "Hi Casey,\n\nThanks for your message. quote. I will get back to you shortly.\n\nBest",
+      "tasks": [
+        {
+          "title": "Send quote for landing page revamp",
+          "due": "2026-10-05"
+        }
+      ],
+      "proposed_slots": [],
+      "status": "approved",
+      "final_text": null,
+      "review_ms": 28596,
+      "reject_reason": null
+    }
+  ]
+}
